@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>معرض رسوماتي 🎨</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>رسوماتي — Zainab</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,33 +14,64 @@
     }
     h1 {
       color: #333;
+      margin-top: 10px;
     }
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 15px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
       margin-top: 30px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    .gallery img {
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      padding: 10px;
+    }
+    .card img {
       width: 100%;
       height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-      transition: transform 0.3s;
+      display: block;
+      border-radius: 10px;
     }
-    .gallery img:hover {
-      transform: scale(1.05);
+    .caption {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #444;
     }
   </style>
 </head>
 <body>
   <h1>✨ رسوماتي ✨</h1>
   <div class="gallery">
-    <img src="image1.png" alt="رسمة 1">
-    <img src="image2.png" alt="رسمة 2">
-    <img src="image3.png" alt="رسمة 3">
+
+    <div class="card"><img src="IMG-20250926-WA0020.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0022.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0021.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250326-WA0079.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0018.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0015.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0013.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0016.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0012.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0017.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0014.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250902-WA0022.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0011.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0009.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0008.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0010.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0007.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250326-WA0080.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250420-WA0019.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0006.jpg" alt="رسمة"></div>
+    <div class="card"><img src="IMG-20250926-WA0004.jpg" alt="رسمة"></div>
+
   </div>
 </body>
 </html>
-
 
